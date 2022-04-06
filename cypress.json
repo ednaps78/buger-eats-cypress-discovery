@@ -1,10 +1,9 @@
 
 
 {
+    "projectId": "8g1oki",
     "viewportWidth": 1440,
     "viewportHeight": 900,
-    "baseUrl": "https://buger-eats-qa.vercel.app",
-    "projectId": "8g1oki"
-   
- 
-}
+    "baseUrl": "https://buger-eats-qa.vercel.app"
+       
+ }
