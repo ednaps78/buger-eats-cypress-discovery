@@ -1,5 +1,5 @@
 import signup from '../pages/SignupPage'
-import signupFactory from '../factories/SignupFactory'
+import signupFactory from '../Factories/SignupFactory'
 
 describe('Signup', () => {
 
