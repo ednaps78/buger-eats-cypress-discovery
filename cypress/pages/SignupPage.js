@@ -30,7 +30,7 @@ class SignupPage {
 
 
         cy.contains('.delivery-method li', deliver.delivery_method).click()
-        cy.get('input[accept^="image"]').attachFile('/images/' + deliver.cnh)
+        cy.get('input[accept^="image"]').attachFile('/Images/' + deliver.cnh)
     }
 
     submit(){
@@ -49,7 +49,7 @@ class SignupPage {
         //cy.get('.alert-error').should('have.text',expectedMessage)
         // a função get busca somente um elemento
         cy.contains('.alert-error', expectedMessage).should('be.visible')
-        //como tem várias mensagens com o mesmo alert.error, foi feita uma combinação de classe com o texto
+        //como tem várias mensagens com o mesmo alert.error, foi feita uma combinação de seletor css pela classe com o texto
 
     }
 
